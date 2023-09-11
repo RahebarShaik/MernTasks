@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .navbar {
+        margin-top: 50px;
+        height: 200%;
+        width: 50px;
+        position: fixed;
+        top: 50px;
+        left: 0;
+        overflow-x: hidden;
+        transition: 0.2s;
+        font-size: larger;
+      }
+      .navbar a {
+        padding: 15px 0;
+        text-decoration: none;
+        font-size: 18px;
+        color: white;
+        display: block;
+        text-align: center;
+      }
+      .navbar a:first-child {
+        background-color: rgb(94, 223, 94);
+      }
+
+      .navbar a:nth-child(2) {
+        background-color: blue;
+      }
+
+      .navbar a:nth-child(3) {
+        background-color: rgb(233, 73, 73);
+      }
+      .navbar a:nth-child(4) {
+        background-color: rgb(174, 173, 173);
+      }
+      .navbar:hover {
+        width: 100px;
+      }
+      .navbar a:hover {
+        background-color: #555;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Hoverable Sidenav Buttons</h2>
+    <p></p>
+    <div class="navbar">
+      <a href="#home">Home</a>
+      <a href="#java">JAVA</a>
+      <a href="#html">HTML</a>
+      <a href="#css">CSS</a>
+    </div>
+  </body>
+</html>
